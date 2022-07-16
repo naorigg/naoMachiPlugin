@@ -1,0 +1,6 @@
+name: naoMachiPlugin
+version: 1.0 # To change
+api-version: 1.19
+main: jp.naori.naoMachiPlugin.Main
+
+
