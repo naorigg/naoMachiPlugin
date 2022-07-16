@@ -1,10 +1,11 @@
 package jp.naori.naoMachiPlugin;
+
+import net.md_5.bungee.api.ChatColor;
+import org.bukkit.Location.*;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import net.md_5.bungee.api.ChatColor;
 
 public class Main extends JavaPlugin {
 
@@ -22,11 +23,12 @@ public class Main extends JavaPlugin {
         // Reloads
         // Plugins reload
     }
-
-    /* "Hello" Command
-    *  Used as a "Test" Command
-    */
+/* Commands Section */
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+
+        /* "Hello" Command
+         *  Used as a "Test" Command
+         */
 
         if(label.equalsIgnoreCase("Hello")) {
             if(sender instanceof Player) {
@@ -43,6 +45,23 @@ public class Main extends JavaPlugin {
             }else {
                 sender.sendMessage("Hey Console");
                 return true;
+            }
+        }
+        return false;
+
+
+        /* "Jump" Command */
+
+        if(label.equalsIgnoreCase("Jump")){
+            if(!(sender instanceof Player)){
+                sender.sendMessage("A player goes flynig");
+                return true;
+            }
+            Player player = (Player) sender;
+            if (args.length == 0){
+                // /launch
+                player.sendMessage(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "Juuuuuuuuuuuuuuuump !");
+                player.setVelocity(player.getLocation().getDirection()).multiply(Integer.parseInt(args[0])).setY(2);
             }
         }
         return false;
