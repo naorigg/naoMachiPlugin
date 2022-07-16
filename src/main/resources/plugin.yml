@@ -6,5 +6,7 @@ author: Naori
 
 commands:
   Hello:
+  fly:
+  speed:
 
 
