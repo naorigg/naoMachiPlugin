@@ -4,46 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5239c73d-3072-42a7-ba45-daec769d0565" name="Changes" comment="Bug in initalisation of commands">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5239c73d-3072-42a7-ba45-daec769d0565" name="Changes" comment="Fix Bug Command">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jp/naori/naoMachiPlugin/commands/Feed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/plugins/naoMachiPlugin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/server/plugins/naoMachiPlugin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/server/world/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/server/world/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/server/world/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world/poi/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_nether/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_nether/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_nether/DIM-1/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_nether/DIM-1/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_nether/DIM-1/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_nether/DIM-1/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_nether/DIM-1/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_nether/DIM-1/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_nether/DIM-1/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_nether/DIM-1/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_nether/DIM-1/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_nether/DIM-1/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_nether/DIM-1/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_nether/DIM-1/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_nether/DIM-1/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_nether/DIM-1/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_nether/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_nether/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_nether/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_nether/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_the_end/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_the_end/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_the_end/DIM1/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_the_end/DIM1/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_the_end/DIM1/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_the_end/DIM1/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_the_end/DIM1/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_the_end/DIM1/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_the_end/DIM1/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_the_end/DIM1/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_the_end/DIM1/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_the_end/DIM1/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_the_end/DIM1/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_the_end/DIM1/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_the_end/DIM1/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_the_end/DIM1/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_the_end/DIM1/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_the_end/DIM1/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_the_end/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_the_end/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/world_the_end/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/server/world_the_end/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jp/naori/naoMachiPlugin/commands/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jp/naori/naoMachiPlugin/commands/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/world/playerdata/fa001a88-a42d-4e72-b12d-73f937860c8a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/server/world/playerdata/fa001a88-a42d-4e72-b12d-73f937860c8a.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/world/playerdata/fa001a88-a42d-4e72-b12d-73f937860c8a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/server/world/playerdata/fa001a88-a42d-4e72-b12d-73f937860c8a.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/world/stats/fa001a88-a42d-4e72-b12d-73f937860c8a.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/world/stats/fa001a88-a42d-4e72-b12d-73f937860c8a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/naori/naoMachiPlugin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jp/naori/naoMachiPlugin/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657997742722</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix Bug Command">
+      <created>1657998687622</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657998687622</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +192,7 @@
     <MESSAGE value="&quot;Hello&quot; command added !" />
     <MESSAGE value="Bug With Multiply !" />
     <MESSAGE value="Bug in initalisation of commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug in initalisation of commands" />
+    <MESSAGE value="Fix Bug Command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Bug Command" />
   </component>
 </project>

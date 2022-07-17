@@ -1,5 +1,6 @@
 package jp.naori.naoMachiPlugin;
 
+import jp.naori.naoMachiPlugin.commands.Feed;
 import jp.naori.naoMachiPlugin.commands.Fly;
 import jp.naori.naoMachiPlugin.commands.Hello;
 import jp.naori.naoMachiPlugin.commands.Speed;
@@ -12,5 +13,6 @@ public class Main extends JavaPlugin {
         getCommand("hello").setExecutor(new Hello());
         getCommand("fly").setExecutor(new Fly());
         getCommand("speed").setExecutor(new Speed());
+        getCommand("feed").setExecutor(new Feed());
     }
 }
