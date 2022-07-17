@@ -30,7 +30,7 @@ public class Feed implements CommandExecutor {
             }
 
         }else {
-            p.sendMessage(ChatColor.RED + "You do not have permission to execute this command!");
+            p.sendMessage(ChatColor.RED + "You're not permission!");
         }
         return false;
     }

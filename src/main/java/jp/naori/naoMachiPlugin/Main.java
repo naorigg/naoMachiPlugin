@@ -1,9 +1,7 @@
 package jp.naori.naoMachiPlugin;
 
-import jp.naori.naoMachiPlugin.commands.Feed;
-import jp.naori.naoMachiPlugin.commands.Fly;
-import jp.naori.naoMachiPlugin.commands.Hello;
-import jp.naori.naoMachiPlugin.commands.Speed;
+import jp.naori.naoMachiPlugin.commands.*;
+import jp.naori.naoMachiPlugin.commands.utils.TeleportUtils;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
@@ -14,5 +12,15 @@ public class Main extends JavaPlugin {
         getCommand("fly").setExecutor(new Fly());
         getCommand("speed").setExecutor(new Speed());
         getCommand("feed").setExecutor(new Feed());
+
+        // Random TP
+        TeleportUtils yeet = new TeleportUtils(this);
+
+        getCommand("rtp").setExecutor(new RandomTP());
+
+        // Setup Config
+        getConfig().options().copyDefaults();
+        saveDefaultConfig();
+
     }
 }

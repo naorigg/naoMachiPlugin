@@ -8,5 +8,8 @@ commands:
   Hello:
   fly:
   speed:
+  feed:
+  rtp:
+
 
 
