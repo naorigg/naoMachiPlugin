@@ -12,6 +12,7 @@ public class Main extends JavaPlugin {
         getCommand("fly").setExecutor(new Fly());
         getCommand("speed").setExecutor(new Speed());
         getCommand("feed").setExecutor(new Feed());
+        getCommand("sethome").setExecutor(new SetHome());
 
         // Random TP
         TeleportUtils yeet = new TeleportUtils(this);

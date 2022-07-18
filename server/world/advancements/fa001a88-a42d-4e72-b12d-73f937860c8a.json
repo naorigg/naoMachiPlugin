@@ -122,6 +122,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:beach": "2022-07-17 10:51:40 +0100",
+      "minecraft:river": "2022-07-18 09:50:09 +0100",
       "minecraft:forest": "2022-07-17 10:54:11 +0100",
       "minecraft:old_growth_birch_forest": "2022-07-17 10:59:42 +0100",
       "minecraft:plains": "2022-07-16 11:48:16 +0100"

@@ -2,3 +2,20 @@
 world-border: true
 #How many blocks away they CAN spawn(not will)
 border: 25000 #If no world border, limit is automatically 25,000 blocks
+
+# --- Configuration SetHome --- #
+
+show-sethome-message: true
+sethome-message: '&2[&a*&2]&sa &aYou now have a new home, &6%player%&a!'
+
+show-teleport-message: false
+teleport-message: '&2[&a*&2]&a &aYou have been teleported to your home, &6%player%&a!'
+
+play-warp-sound: true
+respawn-player-at-home: true
+
+sethome-command-delay: false
+sethome-time-delay: 5
+
+home-command-delay: true
+home-time-delay: 5

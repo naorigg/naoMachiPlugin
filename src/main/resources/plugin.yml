@@ -10,6 +10,9 @@ commands:
   speed:
   feed:
   rtp:
+  sethome:
+  home:
+
 
 
 
